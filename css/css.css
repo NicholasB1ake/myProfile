@@ -49,6 +49,14 @@ background-image: url(../images/texture1.jpg);
     overflow:hidden;
 
 }
+.about{
+  height: 500px;
+  background-color: purple;
+  display: inline-block;
+  width: 795px;
+  float: right;
+
+}
 
 @media screen and (max-width: 580px) {
     .aside {
