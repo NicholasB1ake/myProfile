@@ -1,12 +1,13 @@
 body{
 width: 1000px;
 margin: auto;
+height: 3000px;
 
 }
 
 .container{
   background-color: grey;
-  height: 800px;
+  height: 3000px;
   margin: auto;
 
 }
@@ -16,6 +17,7 @@ margin: auto;
   background-color: lightgreen;
   width: 800px;
   float: right;
+  display: inline-block;
 
 }
 
@@ -24,9 +26,20 @@ margin: auto;
   height: 800px;
   display: inline-block;
   background-color: red;
+  float: left;
 }
 
 .nameBox{
   font-size: 16px;
   text-align: center;
+}
+
+.middle{
+  height: 500px;
+  width: 800px;
+  float: right;
+  display: inline;
+  background-color: black;
+
+
 }
