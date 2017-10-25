@@ -1,0 +1,32 @@
+body{
+width: 1000px;
+margin: auto;
+
+}
+
+.container{
+  background-color: grey;
+  height: 800px;
+  margin: auto;
+
+}
+
+.header{
+  height: 200PX;
+  background-color: lightgreen;
+  width: 800px;
+  float: right;
+
+}
+
+.aside{
+  width: 200px;
+  height: 800px;
+  display: inline-block;
+  background-color: red;
+}
+
+.nameBox{
+  font-size: 16px;
+  text-align: center;
+}
