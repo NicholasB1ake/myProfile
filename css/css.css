@@ -2,6 +2,7 @@ body{
 width: 1000px;
 margin: auto;
 height: 3000px;
+background-color: #bbfffc;
 
 }
 
@@ -14,8 +15,8 @@ height: 3000px;
 
 .header{
   height: 200PX;
-  background-color: lightgreen;
-  width: 800px;
+  background-color: #d3fffd;
+  width: 795px;
   float: right;
   display: inline-block;
 
@@ -25,8 +26,9 @@ height: 3000px;
   width: 200px;
   height: 800px;
   display: inline-block;
-  background-color: red;
+  background-color: #ecffff;
   float: left;
+  border: 1px solid grey;
 }
 
 .nameBox{
@@ -34,12 +36,16 @@ height: 3000px;
   text-align: center;
 }
 
-.middle{
+.experience{
   height: 500px;
-  width: 800px;
+  width: 795px;
   float: right;
   display: inline;
-  background-color: black;
+  background-color: #e1fffe;
+}
 
+.smallphoto{
+
+    overflow:hidden;
 
 }
