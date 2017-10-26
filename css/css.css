@@ -158,16 +158,49 @@ border: 5px solid white;
       text-align: center;
       text-decoration: none;
       margin-right: 250px;
+      filter: grayscale(100%);
+
   }
 
+.butt{
+  margin-left: 300px;
+  display: inline-block;
+  filter: grayscale(100%);
 
-
-
-
-
-
+}
 
 
 @media screen and (max-width: 580px) {
-
+.photo{
+  display: none;
+}
+.section2{
+  display: none;
+  }
+.section3{
+  display: none;
+}
+.section4{
+  width: 500px;
+  text-align: center;
+}
+.textbox5{
+  width: 287px;
+}
+#aboutimg2{
+  display: none;
+}
+.nav{
+  width: 500px;
+}
+.butt{
+  margin-left: 50px;
+}
+footer{
+  width: 500px;
+}
+.fa{
+  margin-right: 30px;
+}
+}
 }
