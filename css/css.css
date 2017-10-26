@@ -103,7 +103,7 @@ border: 5px solid white;
 }
 
 #aboutimg{
-  margin-left: 300px;
+  margin-left: 200px;
   margin-top: 200px;
   image-orientation: from-image;
   filter: grayscale(100%);
@@ -140,6 +140,28 @@ border: 5px solid white;
   margin-right: 200px;
   height: 300px;
 }
+#aboutimg2{
+  margin-left: 200px;
+  margin-top: 200px;
+}
+footer{
+width: 100%;
+height: 200px;
+background-color: #FCF5EB;
+border: 5px solid white;
+  }
+
+.fa {
+      padding: 20px;
+      font-size: 60px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin-right: 250px;
+  }
+
+
+
 
 
 
