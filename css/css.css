@@ -1,35 +1,26 @@
 body{
-width: 1000px;
-margin: auto;
+width: 1420px;
+/*margin: auto;*/
 height: 3000px;
-background-image: url(../images/texture1.jpg);
+background-image: url(../images/intersection.png);
 
 }
 
 .container{
-  background-color: grey;
-  height: 3000px;
+height: 3000px;
   margin: auto;
-
+width: 100%;
 }
 
 .header{
   height: 200PX;
-  background-color: #d3fffd;
-  width: 795px;
-  float: right;
+  /*background-color: #DDDDDD;*/
+  background-image: url(../images/train.jpeg);
+  width: 100%;
   display: inline-block;
 
 }
 
-.aside{
-  width: 200px;
-  height: 800px;
-  display: inline-block;
-  background-color: #ecffff;
-  float: left;
-  border: 1px solid grey;
-}
 
 .nameBox{
   font-size: 16px;
@@ -39,30 +30,54 @@ background-image: url(../images/texture1.jpg);
 .experience{
   height: 500px;
   width: 795px;
-  float: right;
   display: inline;
-  background-color: #e1fffe;
 }
 
-.smallphoto{
 
-    overflow:hidden;
-
-}
-.about{
+.photo{
   height: 500px;
-  background-color: purple;
+  background-color: #AAAAAA;
   display: inline-block;
-  width: 795px;
-  float: right;
+  width: 100%;
+}
+
+.nav{
+  background-color: #FCF5EB;
+  height: 100px;
+  width: 100%;
 
 }
+
+.textbox1{
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+.laptop{
+  filter: grayscale(100%);
+}
+
+.textbox2{
+  font-family: 'Space Mono', monospace;
+  font-size: 30px;
+  display: inline-block;
+  float: right;
+  margin-top: 100px;
+  width: 400px;
+  margin-right: 200px;
+  height: 300px;
+}
+
+.section2{
+height: 500px;
+background-color: #AAAAAA;
+display: inline-block;
+width: 100%;
+}
+
 
 @media screen and (max-width: 580px) {
-    .aside {
-        width: 400px;
-    }
-    body{
-      margin-left: 1px;
-    }
+
 }
